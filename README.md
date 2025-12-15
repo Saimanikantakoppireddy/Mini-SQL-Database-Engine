@@ -26,38 +26,25 @@ internally without using any database system.
 4. Type exit or quit to close the application
 
 ## Supported SQL Grammar
-This engine supports the following SQL syntax only:
 
-SELECT
-SELECT * FROM table
+### SELECT
+SELECT * FROM table  
 SELECT column1, column2 FROM table
-WHERE (Single Condition Only)
 
+### WHERE (Single Condition Only)
 Supported operators:
-=
-!=
->
-<
->=
-<=
+=  !=  >  <  >=  <=
 
 Examples:
-SELECT * FROM users WHERE age > 30
+SELECT * FROM users WHERE age > 30  
 SELECT name FROM users WHERE country = 'USA'
 
-COUNT Aggregation
-SELECT COUNT(*) FROM table
+### COUNT Aggregation
+SELECT COUNT(*) FROM table  
 SELECT COUNT(column_name) FROM table
 
 Examples:
-
-SELECT COUNT(*) FROM users
-SELECT COUNT(country) FROM users WHERE country = 'USA'
-
-Example Queries
-SELECT * FROM users
-SELECT name, age FROM users WHERE age > 30
-SELECT COUNT(*) FROM users
+SELECT COUNT(*) FROM users  
 SELECT COUNT(country) FROM users WHERE country = 'USA'
 
 # Sample CSV Files
