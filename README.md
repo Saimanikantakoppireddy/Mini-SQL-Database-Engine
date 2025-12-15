@@ -70,9 +70,9 @@ Each CSV file name is treated as a table name
 ## Project Structure
 
 sql_engine/
-│── parser.py      # SQL parsing logic
-│── engine.py      # Query execution engine
-│── cli.py         # Command-line interface
+│── parser.py      
+│── engine.py     
+│── cli.py        
 │── README.md
 │── data/
 │   ├── users.csv
